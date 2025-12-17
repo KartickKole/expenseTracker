@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.expensetracker.ui.dashboard.DashboardFragment
+import com.expensetracker.ui.profile.ProfileFragment
 
 class MainActivity : AppCompatActivity() {
 

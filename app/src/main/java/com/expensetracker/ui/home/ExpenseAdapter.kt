@@ -1,10 +1,12 @@
-package com.expensetracker
+package com.expensetracker.ui.home
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.expensetracker.data.model.ExpenseModel
+import com.expensetracker.R
 
 class ExpenseAdapter(private val expenseList: ArrayList<ExpenseModel>) :
     RecyclerView.Adapter<ExpenseAdapter.ExpenseViewHolder>() {
@@ -23,7 +25,7 @@ class ExpenseAdapter(private val expenseList: ArrayList<ExpenseModel>) :
     override fun onBindViewHolder(holder: ExpenseViewHolder, position: Int) {
         val currentItem = expenseList[position]
         holder.tvTitle.text = currentItem.title
-        holder.tvAmount.text = "₹ ${currentItem.amount}" // টাকার সিম্বলসহ
+        holder.tvAmount.text = "₹ ${currentItem.amount}"
         holder.tvDate.text = currentItem.date
     }
 

@@ -1,4 +1,4 @@
-package com.expensetracker
+package com.expensetracker.data.model
 
 data class ExpenseModel(
     val id: String? = "",

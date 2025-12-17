@@ -1,4 +1,4 @@
-package com.expensetracker
+package com.expensetracker.ui.profile
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.TextView
 import androidx.fragment.app.Fragment
+import com.expensetracker.R
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.firebase.auth.FirebaseAuth
@@ -53,7 +54,7 @@ class ProfileFragment : Fragment() {
 
             googleSignInClient.signOut().addOnCompleteListener {
                 // ৩. পুরোপুরি লগআউট হওয়ার পর লগইন পেজে পাঠানো
-                val intent = Intent(activity, LoginActivity::class.java)
+                val intent = Intent(activity, auth.LoginActivity::class.java)
                 intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
                 startActivity(intent)
             }
