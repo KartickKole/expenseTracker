@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ExpenseTracker</string>
+
+    <string name="set_saving_goal">Set Savings Goal</string>
+    <string name="target_amount">Target Amount</string>
+    <string name="select_target_date">Select Target Date</string>
+    <string name="save_goal">Save Goal</string>
+</resources>

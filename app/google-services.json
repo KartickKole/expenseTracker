@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "610616120560",
+    "firebase_url": "https://expensetracker-ba380-default-rtdb.firebaseio.com",
+    "project_id": "expensetracker-ba380",
+    "storage_bucket": "expensetracker-ba380.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:610616120560:android:ebe18ee3418f3945959e35",
+        "android_client_info": {
+          "package_name": "com.expensetracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "610616120560-qgnd3f2opfup7pdg2958tae5ev3jic7c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.expensetracker",
+            "certificate_hash": "b15d1a610502e51f1f442bb14082d4357702b747"
+          }
+        },
+        {
+          "client_id": "610616120560-se31ebh7iufdv60olfj2h62dh7365a50.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAa2XnvXJOGJTGkKhQMoEgXdrG9VdvebpM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "610616120560-se31ebh7iufdv60olfj2h62dh7365a50.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
