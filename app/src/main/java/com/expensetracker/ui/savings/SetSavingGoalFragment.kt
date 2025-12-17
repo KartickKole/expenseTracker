@@ -1,4 +1,4 @@
-package com.expensetracker
+package com.expensetracker.ui.savings
 
 import android.app.DatePickerDialog
 import android.os.Bundle
@@ -9,11 +9,13 @@ import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
 import androidx.fragment.app.Fragment
+import com.expensetracker.R
 import com.google.android.material.textfield.TextInputEditText
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.FirebaseDatabase
 import java.text.SimpleDateFormat
-import java.util.*
+import java.util.Calendar
+import java.util.Locale
 
 class SetSavingGoalFragment : Fragment() {
 

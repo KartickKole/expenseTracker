@@ -1,9 +1,11 @@
 package com.expensetracker
 
+import com.expensetracker.ui.addexpense.AddExpenseFragment
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.expensetracker.ui.dashboard.DashboardFragment
 
 class MainActivity : AppCompatActivity() {
 

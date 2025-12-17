@@ -1,4 +1,4 @@
-package com.expensetracker
+package com.expensetracker.ui.dashboard
 
 import android.graphics.Color
 import android.os.Bundle
@@ -8,6 +8,11 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.TextView
 import androidx.fragment.app.Fragment
+import com.expensetracker.ui.addexpense.AddExpenseFragment
+import com.expensetracker.ui.addincome.AddIncomeFragment
+import com.expensetracker.ui.history.HistoryFragment
+import com.expensetracker.R
+import com.expensetracker.ui.savings.SetSavingGoalFragment
 import com.github.mikephil.charting.charts.PieChart
 import com.github.mikephil.charting.data.PieData
 import com.github.mikephil.charting.data.PieDataSet
@@ -15,7 +20,8 @@ import com.github.mikephil.charting.data.PieEntry
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.FirebaseDatabase
 import java.text.SimpleDateFormat
-import java.util.*
+import java.util.Date
+import java.util.Locale
 
 class DashboardFragment : Fragment() {
 
